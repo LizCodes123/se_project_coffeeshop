@@ -23,7 +23,6 @@
   font-size: 20px;
   line-height: 30px;
   color: #FFFFFF;
-
   }
 
   .recipes__videos {
@@ -33,10 +32,6 @@
   padding-top: 80px;
   padding-bottom: 215px;
   column-gap: 40px;
-  }
-
-  .recipes__video {
-
   }
 
   .recipes__iframe {
