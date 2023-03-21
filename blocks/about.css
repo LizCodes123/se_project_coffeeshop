@@ -2,6 +2,9 @@
 background-color: #0a2850;
 display: flex;
 position: relative;
+color: #fff;
+z-index: 0;
+justify-content: space-between;
 }
 
 .about__title {
@@ -9,29 +12,43 @@ max-width: 251px;
 margin: 0;
 padding-top: 100px;
 padding-left: 80px;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+z-index: 2;
+
 }
 
 .about__content {
 max-width: 660px;
-margin-left: auto;
 padding-top: 119px;
 padding-right: 80px;
 padding-bottom: 173px;
 display:flex;
 flex-direction: column;
-position: relative;
-
 }
 
 .about__paragraph {
+  font-family: 'Noto Serif', 'Times New Roman', serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  padding-bottom: 20px;
+}
 
+.about__paragraph:last-of-type {
+  padding-bottom: 0;
 }
 
 .about__circle {
 width: 426px;
 height: 426px;
+color: #2f80ed;
+position: absolute;
+z-index: 1;
 top: -152px;
 left: -129px;
+
 
 }
 
