@@ -19,5 +19,5 @@ text-decoration: none;
 
 .nav__link:hover {
 color: #1f69c9;
-transition: color O.3s ease-out;
+transition: color .3s ease-out;
 }

@@ -15,7 +15,6 @@ height: 21px;
 }
 
 .footer__social-content {
-text-align: right;
 margin-left: auto;
 }
 
@@ -44,6 +43,8 @@ padding: 0;
 .footer__social-link {
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social-link:hover {
